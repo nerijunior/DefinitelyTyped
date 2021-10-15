@@ -13,7 +13,7 @@ interface reactNotifyToastColor {
 
 declare class reactNotifyToast {
     show(
-        text: string,
+        content: string | React.ReactNode,
         type?: 'success' | 'error' | 'warning' | 'custom',
         timeout?: number,
         color?: reactNotifyToastColor
